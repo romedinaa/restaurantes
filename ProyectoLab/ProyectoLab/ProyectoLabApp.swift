@@ -11,7 +11,7 @@ import SwiftUI
 struct ProyectoLabApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LocationView()
         }
     }
 }
