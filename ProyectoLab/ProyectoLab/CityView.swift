@@ -16,7 +16,7 @@ struct City: Identifiable{
 struct CityView: View {
     
     let modelData: [City] = [
-        City(cityname: "Monterrey", image: "cloud.rain"),
+        City(cityname: "Monterrey", image: "flame"),
         City(cityname: "Chihuahua", image: "cloud.sun.rain"),
         City(cityname: "City1", image: "sun.max"),
         City(cityname: "Tokyo", image: "cloud.sun")]
@@ -29,7 +29,7 @@ struct CityView: View {
                 NavigationLink(destination: Text(City.cityname).font(.largeTitle)){
                     HStack {
                         // 2.
-                        Image(systemName: "mappin.and.ellipse")
+                        Image(systemName: City.image)
                             .frame(width: 50, height: 10, alignment: .leading)
                         VStack {
                             Text(City.cityname)
