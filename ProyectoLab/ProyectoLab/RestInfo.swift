@@ -11,7 +11,7 @@ struct RestInfo: Identifiable{
     var id = UUID()
     var name: String        //nombre restaurante
     var type: String        // tipo de comida
-    var rating: String      //"4.5" **ver como cambiarlo para que sean icons
+    var rating: Double      //"4.5" **ver como cambiarlo para que sean icons
     
     var location: String    //ubicación restaurante
     var cost: String        //escrito asi = "$$$"

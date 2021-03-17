@@ -15,9 +15,11 @@ struct City: Identifiable{
 
 struct CityView: View {
     
+    @StateObject var rest: RestInfoModel
+    
     let modelData: [City] = [
         City(cityname: "Monterrey", image: "flame"),
-        City(cityname: "Chihuahua", image: "cloud.sun.rain"),
+        City(cityname: "Chihuahua", image: "star"),
         City(cityname: "City1", image: "sun.max"),
         City(cityname: "Tokyo", image: "cloud.sun")]
     
@@ -26,25 +28,35 @@ struct CityView: View {
         NavigationView(){
             // 1.
             List(modelData) { City in
-                NavigationLink(destination: Text(City.cityname).font(.largeTitle)){
+                //dentro de navication link hay que hacer que destination vaya a RestView (vista del restaurante)
+                NavigationLink(destination: RestView(rest: info)){
                     HStack {
                         // 2.
                         Image(systemName: City.image)
                             .frame(width: 50, height: 10, alignment: .leading)
                         VStack {
                             Text(City.cityname)
+                                .font(.title)
+                                .foregroundColor(.blue)
+                                .padding()
+                                
                         }
                     }.font(.title)
                     
                 }
+                .ignoresSafeArea(.all)
             }
             .navigationBarTitle(Text("Ubicación"))
             
+            
         }
+        
+        
+        
     }
 }
     struct CityView_Previews: PreviewProvider {
         static var previews: some View {
-            CityView()
+            CityView(rest: RestInfoModel())
         }
     }
