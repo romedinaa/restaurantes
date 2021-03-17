@@ -17,9 +17,18 @@ struct LocationView: View {
                         .frame(height: 80)
                     
                     , content: {
-                       Text("Monterrey")
-                        .font(Font.largeTitle.bold())
-                        .foregroundColor(Color(.brown))
+                   
+                        NavigationLink(
+                            destination: RestaurantView(),
+                            label: {
+                                VStack{
+                                    Text("Monterrey")
+                                        .font(.largeTitle)
+                                        .foregroundColor(.red)
+                                        .padding()
+                                }
+                                
+                            })
                 
                     })
             

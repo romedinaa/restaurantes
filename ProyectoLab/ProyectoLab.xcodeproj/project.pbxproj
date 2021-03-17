@@ -14,8 +14,10 @@
 		435738C42600131B00E5DFDF /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435738C32600131B00E5DFDF /* Info.swift */; };
 		435738C72600136400E5DFDF /* RestInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435738C62600136400E5DFDF /* RestInfo.swift */; };
 		435738CA2600233700E5DFDF /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435738C92600233700E5DFDF /* RestaurantView.swift */; };
-		435738CD2600240C00E5DFDF /* CellRestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435738CC2600240C00E5DFDF /* CellRestView.swift */; };
 		435738D02600264700E5DFDF /* defaultInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435738CF2600264600E5DFDF /* defaultInfo.swift */; };
+		435738D526002AA400E5DFDF /* RestDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435738D426002AA400E5DFDF /* RestDetailView.swift */; };
+		435738D926002CAB00E5DFDF /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435738D826002CAB00E5DFDF /* WebView.swift */; };
+		435738DC26002D5A00E5DFDF /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 435738DB26002D5A00E5DFDF /* Fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +30,10 @@
 		435738C32600131B00E5DFDF /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 		435738C62600136400E5DFDF /* RestInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestInfo.swift; sourceTree = "<group>"; };
 		435738C92600233700E5DFDF /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
-		435738CC2600240C00E5DFDF /* CellRestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellRestView.swift; sourceTree = "<group>"; };
 		435738CF2600264600E5DFDF /* defaultInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = defaultInfo.swift; sourceTree = "<group>"; };
+		435738D426002AA400E5DFDF /* RestDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestDetailView.swift; sourceTree = "<group>"; };
+		435738D826002CAB00E5DFDF /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		435738DB26002D5A00E5DFDF /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +66,12 @@
 		432AE783260005B80074511B /* ProyectoLab */ = {
 			isa = PBXGroup;
 			children = (
+				435738DB26002D5A00E5DFDF /* Fonts */,
 				432AE784260005B80074511B /* ProyectoLabApp.swift */,
 				432AE786260005B80074511B /* LocationView.swift */,
 				435738C92600233700E5DFDF /* RestaurantView.swift */,
-				435738CC2600240C00E5DFDF /* CellRestView.swift */,
+				435738D426002AA400E5DFDF /* RestDetailView.swift */,
+				435738D826002CAB00E5DFDF /* WebView.swift */,
 				435738C32600131B00E5DFDF /* Info.swift */,
 				435738C62600136400E5DFDF /* RestInfo.swift */,
 				435738CF2600264600E5DFDF /* defaultInfo.swift */,
@@ -141,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				435738DC26002D5A00E5DFDF /* Fonts in Resources */,
 				432AE78C260005BA0074511B /* Preview Assets.xcassets in Resources */,
 				432AE789260005BA0074511B /* Assets.xcassets in Resources */,
 			);
@@ -154,9 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				435738C42600131B00E5DFDF /* Info.swift in Sources */,
+				435738D926002CAB00E5DFDF /* WebView.swift in Sources */,
 				435738D02600264700E5DFDF /* defaultInfo.swift in Sources */,
 				432AE787260005B80074511B /* LocationView.swift in Sources */,
-				435738CD2600240C00E5DFDF /* CellRestView.swift in Sources */,
+				435738D526002AA400E5DFDF /* RestDetailView.swift in Sources */,
 				432AE785260005B80074511B /* ProyectoLabApp.swift in Sources */,
 				435738CA2600233700E5DFDF /* RestaurantView.swift in Sources */,
 				435738C72600136400E5DFDF /* RestInfo.swift in Sources */,
