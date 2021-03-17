@@ -8,30 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		432AE785260005B80074511B /* ProyectoLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432AE784260005B80074511B /* ProyectoLabApp.swift */; };
+		432AE787260005B80074511B /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432AE786260005B80074511B /* LocationView.swift */; };
 		432AE789260005BA0074511B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432AE788260005BA0074511B /* Assets.xcassets */; };
 		432AE78C260005BA0074511B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432AE78B260005BA0074511B /* Preview Assets.xcassets */; };
-		435738C42600131B00E5DFDF /* RestInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435738C32600131B00E5DFDF /* RestInfo.swift */; };
-		435738C72600136400E5DFDF /* RestInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435738C62600136400E5DFDF /* RestInfoModel.swift */; };
+		435738C42600131B00E5DFDF /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435738C32600131B00E5DFDF /* Info.swift */; };
+		435738C72600136400E5DFDF /* RestInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435738C62600136400E5DFDF /* RestInfo.swift */; };
+		435738CA2600233700E5DFDF /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435738C92600233700E5DFDF /* RestaurantView.swift */; };
 		435738D02600264700E5DFDF /* defaultInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435738CF2600264600E5DFDF /* defaultInfo.swift */; };
+		435738D526002AA400E5DFDF /* RestDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435738D426002AA400E5DFDF /* RestDetailView.swift */; };
 		435738D926002CAB00E5DFDF /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435738D826002CAB00E5DFDF /* WebView.swift */; };
 		435738DC26002D5A00E5DFDF /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 435738DB26002D5A00E5DFDF /* Fonts */; };
-		43A23E262601A8A000505C94 /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A23E252601A8A000505C94 /* NavigationBarModifier.swift */; };
-		43A23E342601AD8C00505C94 /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A23E332601AD8C00505C94 /* CityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		432AE781260005B80074511B /* ProyectoLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		432AE784260005B80074511B /* ProyectoLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoLabApp.swift; sourceTree = "<group>"; };
+		432AE786260005B80074511B /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		432AE788260005BA0074511B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		432AE78B260005BA0074511B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		432AE78D260005BA0074511B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		435738C32600131B00E5DFDF /* RestInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestInfo.swift; sourceTree = "<group>"; };
-		435738C62600136400E5DFDF /* RestInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestInfoModel.swift; sourceTree = "<group>"; };
+		432AE78D260005BA0074511B /* Infoo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Infoo.plist; sourceTree = "<group>"; };
+		435738C32600131B00E5DFDF /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		435738C62600136400E5DFDF /* RestInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestInfo.swift; sourceTree = "<group>"; };
+		435738C92600233700E5DFDF /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
 		435738CF2600264600E5DFDF /* defaultInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = defaultInfo.swift; sourceTree = "<group>"; };
+		435738D426002AA400E5DFDF /* RestDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestDetailView.swift; sourceTree = "<group>"; };
 		435738D826002CAB00E5DFDF /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		435738DB26002D5A00E5DFDF /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
-		43A23E252601A8A000505C94 /* NavigationBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
-		43A23E332601AD8C00505C94 /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,14 +68,15 @@
 			children = (
 				435738DB26002D5A00E5DFDF /* Fonts */,
 				432AE784260005B80074511B /* ProyectoLabApp.swift */,
-				43A23E332601AD8C00505C94 /* CityView.swift */,
-				43A23E252601A8A000505C94 /* NavigationBarModifier.swift */,
+				432AE786260005B80074511B /* LocationView.swift */,
+				435738C92600233700E5DFDF /* RestaurantView.swift */,
+				435738D426002AA400E5DFDF /* RestDetailView.swift */,
 				435738D826002CAB00E5DFDF /* WebView.swift */,
-				435738C32600131B00E5DFDF /* RestInfo.swift */,
-				435738C62600136400E5DFDF /* RestInfoModel.swift */,
+				435738C32600131B00E5DFDF /* Info.swift */,
+				435738C62600136400E5DFDF /* RestInfo.swift */,
 				435738CF2600264600E5DFDF /* defaultInfo.swift */,
 				432AE788260005BA0074511B /* Assets.xcassets */,
-				432AE78D260005BA0074511B /* Info.plist */,
+				432AE78D260005BA0074511B /* Infoo.plist */,
 				432AE78A260005BA0074511B /* Preview Content */,
 			);
 			path = ProyectoLab;
@@ -157,13 +160,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				435738C42600131B00E5DFDF /* RestInfo.swift in Sources */,
-				43A23E342601AD8C00505C94 /* CityView.swift in Sources */,
+				435738C42600131B00E5DFDF /* Info.swift in Sources */,
 				435738D926002CAB00E5DFDF /* WebView.swift in Sources */,
-				43A23E262601A8A000505C94 /* NavigationBarModifier.swift in Sources */,
 				435738D02600264700E5DFDF /* defaultInfo.swift in Sources */,
+				432AE787260005B80074511B /* LocationView.swift in Sources */,
+				435738D526002AA400E5DFDF /* RestDetailView.swift in Sources */,
 				432AE785260005B80074511B /* ProyectoLabApp.swift in Sources */,
-				435738C72600136400E5DFDF /* RestInfoModel.swift in Sources */,
+				435738CA2600233700E5DFDF /* RestaurantView.swift in Sources */,
+				435738C72600136400E5DFDF /* RestInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

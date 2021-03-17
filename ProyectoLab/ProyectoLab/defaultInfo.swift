@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-extension RestInfo{
+extension Info{
     
-    public static var defaultInfo =  RestInfo(name: "McDonals", type: "americano", rating: "4.5/5", location: "city", cost: "$", images: ["Office1","Office2", "Office3"], web: "https://youtu.be/kP9TfCWaQT4")
+    public static var defaultInfo =  Info(name: "McDonals", location: "cancun", type: "comida rapida", cost: "$$$", rating: "4/5", images: ["Office1","Office2", "Office3"], web: "https://youtu.be/kP9TfCWaQT4")
 }
