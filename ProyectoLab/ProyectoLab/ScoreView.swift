@@ -20,7 +20,7 @@ struct ScoreView: View {
                 .opacity(0.55)
                 .foregroundColor(Color.black)
                 .frame(width: 70, height: 70)
-                
+            
             Circle()
                 .trim(from: 0.0, to: CGFloat(min(rating / 100, 1.0)))
                 .stroke(style: StrokeStyle(lineWidth: 10.0, lineCap: .round, lineJoin: .round))
@@ -46,7 +46,7 @@ struct ScoreView: View {
             }
         }
     }
-
+    
     
 }
 

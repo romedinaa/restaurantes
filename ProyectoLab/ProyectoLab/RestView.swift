@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 struct RestView: View {
     
     @StateObject var rest: RestInfoModel
@@ -21,34 +20,36 @@ struct RestView: View {
             
             
             ZStack{
-                Color(.white)
                 VStack{
                     VStack{
+                        Text("Restaurantes")
+                            .font(.TinosBold(size: 40))
+                            .foregroundColor(Color("Negros"))
+                            .padding(.top, 100)
+                        
                         Text(city)
-                            //.font(.NotoSans(size: 48))
-                            //.foregroundColor(Color(.red))
-                            .padding(.top, 40)
+                            .font(.RalewaySemiBold(size: 30))
+                            .foregroundColor(Color("Naranjas"))
                     }
+                    
                     VStack{
+                        
                         ScrollView(.horizontal, showsIndicators: false) {
                             HStack{
                                 ForEach(restaurants){ restaurante in
                                     NavigationLink(
                                         destination: RestDetailView(rest: restaurante),
                                         label: {
-//                                            if restaurante.location == city.cityname {
+//              if restaurante.location == city.cityname {
                                             
                                             RestCellView(rest: restaurante)
                                                 .frame(width: geo.size.width)
-//                                            }
                                         })
-                                        
-                                  
                                 }
                             }
                         }
                     }
-                    .padding(.top, -6)
+                    .padding(.top, 10)
                 }
                 .padding(.bottom, 100)
             }
@@ -67,9 +68,9 @@ struct RestView: View {
                 default: restaurants = rest.monterrey
                     
                 }
-//                restaurants = rest.restaurante.filter{$0.location == city.cityname}
+                //                restaurants = rest.restaurante.filter{$0.location == city.cityname}
             }
-         
+            
         }
     }
 }

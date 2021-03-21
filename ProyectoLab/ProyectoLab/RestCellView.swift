@@ -24,7 +24,7 @@ struct RestCellView: View {
                             .overlay(
                                 ZStack{
                                     RoundedRectangle(cornerRadius: 40)
-                                        .stroke(Color(.yellow), style: StrokeStyle(lineWidth: 10, lineCap: .round, lineJoin: .round))
+                                        .stroke(Color("Naranjas"), style: StrokeStyle(lineWidth: 10, lineCap: .round, lineJoin: .round))
                                     
                                     VStack{
                                         Spacer()
@@ -39,33 +39,29 @@ struct RestCellView: View {
                                 
                             )
                             .padding(.horizontal,20)
-                            .padding(.top, 10)
+                            .padding(.top, 30)
                     }
                     
                 }
                 VStack{
                     HStack{
                         Text(rest.name)
-                            //.font(.NotoSans(size: 24))
-                        Text("(\(String(rest.type)))")
-                            //.font(.NotoSans(size: 20))
-                        Text(rest.cost)
-                            //.font(.NotoSans(size: 20))
-                        Spacer()
+                            .font(.RalewaySemiBold(size: 25))
                     }
+                    .padding(.top, 50)
                     
-                    
-                    .padding(.top, 40)
                     //aqui iria una descripción del restaurante
-//                    HStack{
-//                        Text(rest.name)
-//                            //.font(.NotoSans(size: 20))
-//
-//                        Spacer()
-//                    }
+                    HStack{
+                        Text((String(rest.type)))
+                            
+                            .font(.RalewayBold(size: 15))
+                    }
+                    .padding(.leading, 2)
                 }
-                .foregroundColor(Color(.red))
-                .padding(.leading,20)
+                .font(.RalewayBold(size: 5))
+                .foregroundColor(Color("Negros"))
+                .padding(.leading,10)
+                .padding(.trailing,150)
             }
         }
     }

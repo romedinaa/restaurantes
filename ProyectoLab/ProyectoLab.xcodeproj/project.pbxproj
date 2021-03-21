@@ -14,13 +14,19 @@
 		435738C72600136400E5DFDF /* RestInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435738C62600136400E5DFDF /* RestInfoModel.swift */; };
 		435738D02600264700E5DFDF /* defaultInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435738CF2600264600E5DFDF /* defaultInfo.swift */; };
 		435738D926002CAB00E5DFDF /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435738D826002CAB00E5DFDF /* WebView.swift */; };
-		435738DC26002D5A00E5DFDF /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 435738DB26002D5A00E5DFDF /* Fonts */; };
 		43A23E262601A8A000505C94 /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A23E252601A8A000505C94 /* NavigationBarModifier.swift */; };
 		43A23E342601AD8C00505C94 /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A23E332601AD8C00505C94 /* CityView.swift */; };
 		43DA471626027CE200052230 /* RestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DA471526027CE200052230 /* RestView.swift */; };
 		43DA471A26027DA600052230 /* RestCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DA471926027DA600052230 /* RestCellView.swift */; };
 		43DA471D26027E5800052230 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DA471C26027E5800052230 /* ScoreView.swift */; };
 		43DA472026027FEF00052230 /* RestDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DA471F26027FEF00052230 /* RestDetailView.swift */; };
+		4AD2A4152605CEFD00E5A08E /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD2A4142605CEFD00E5A08E /* NotoSans-Regular.ttf */; };
+		4AD2A4182605CF0200E5A08E /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD2A4172605CF0200E5A08E /* Raleway-Medium.ttf */; };
+		4AD2A41B2605CF0900E5A08E /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD2A41A2605CF0900E5A08E /* Raleway-SemiBold.ttf */; };
+		4AD2A41E2605CF0E00E5A08E /* Tinos-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD2A41D2605CF0E00E5A08E /* Tinos-Bold.ttf */; };
+		4AD2A4212605CF1300E5A08E /* Tinos-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD2A4202605CF1300E5A08E /* Tinos-Regular.ttf */; };
+		4AD2A4242605CF2900E5A08E /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD2A4232605CF2900E5A08E /* Fonts.swift */; };
+		4AD2A4322605D70900E5A08E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AD2A4312605D70900E5A08E /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,13 +39,19 @@
 		435738C62600136400E5DFDF /* RestInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestInfoModel.swift; sourceTree = "<group>"; };
 		435738CF2600264600E5DFDF /* defaultInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = defaultInfo.swift; sourceTree = "<group>"; };
 		435738D826002CAB00E5DFDF /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
-		435738DB26002D5A00E5DFDF /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 		43A23E252601A8A000505C94 /* NavigationBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
 		43A23E332601AD8C00505C94 /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
 		43DA471526027CE200052230 /* RestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestView.swift; sourceTree = "<group>"; };
 		43DA471926027DA600052230 /* RestCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestCellView.swift; sourceTree = "<group>"; };
 		43DA471C26027E5800052230 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 		43DA471F26027FEF00052230 /* RestDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestDetailView.swift; sourceTree = "<group>"; };
+		4AD2A4142605CEFD00E5A08E /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		4AD2A4172605CF0200E5A08E /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		4AD2A41A2605CF0900E5A08E /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		4AD2A41D2605CF0E00E5A08E /* Tinos-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tinos-Bold.ttf"; sourceTree = "<group>"; };
+		4AD2A4202605CF1300E5A08E /* Tinos-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tinos-Regular.ttf"; sourceTree = "<group>"; };
+		4AD2A4232605CF2900E5A08E /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		4AD2A4312605D70900E5A08E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +84,7 @@
 		432AE783260005B80074511B /* ProyectoLab */ = {
 			isa = PBXGroup;
 			children = (
-				435738DB26002D5A00E5DFDF /* Fonts */,
+				4AD2A4132605CEC900E5A08E /* Fonts1 */,
 				432AE784260005B80074511B /* ProyectoLabApp.swift */,
 				43A23E332601AD8C00505C94 /* CityView.swift */,
 				43DA471526027CE200052230 /* RestView.swift */,
@@ -87,6 +99,7 @@
 				432AE788260005BA0074511B /* Assets.xcassets */,
 				432AE78D260005BA0074511B /* Info.plist */,
 				432AE78A260005BA0074511B /* Preview Content */,
+				4AD2A4312605D70900E5A08E /* Colors.xcassets */,
 			);
 			path = ProyectoLab;
 			sourceTree = "<group>";
@@ -97,6 +110,19 @@
 				432AE78B260005BA0074511B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4AD2A4132605CEC900E5A08E /* Fonts1 */ = {
+			isa = PBXGroup;
+			children = (
+				4AD2A4232605CF2900E5A08E /* Fonts.swift */,
+				4AD2A4172605CF0200E5A08E /* Raleway-Medium.ttf */,
+				4AD2A41A2605CF0900E5A08E /* Raleway-SemiBold.ttf */,
+				4AD2A4202605CF1300E5A08E /* Tinos-Regular.ttf */,
+				4AD2A41D2605CF0E00E5A08E /* Tinos-Bold.ttf */,
+				4AD2A4142605CEFD00E5A08E /* NotoSans-Regular.ttf */,
+			);
+			path = Fonts1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,7 +182,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				435738DC26002D5A00E5DFDF /* Fonts in Resources */,
+				4AD2A4152605CEFD00E5A08E /* NotoSans-Regular.ttf in Resources */,
+				4AD2A4212605CF1300E5A08E /* Tinos-Regular.ttf in Resources */,
+				4AD2A4182605CF0200E5A08E /* Raleway-Medium.ttf in Resources */,
+				4AD2A41B2605CF0900E5A08E /* Raleway-SemiBold.ttf in Resources */,
+				4AD2A41E2605CF0E00E5A08E /* Tinos-Bold.ttf in Resources */,
+				4AD2A4322605D70900E5A08E /* Colors.xcassets in Resources */,
 				432AE78C260005BA0074511B /* Preview Assets.xcassets in Resources */,
 				432AE789260005BA0074511B /* Assets.xcassets in Resources */,
 			);
@@ -173,6 +204,7 @@
 				43A23E342601AD8C00505C94 /* CityView.swift in Sources */,
 				43DA471626027CE200052230 /* RestView.swift in Sources */,
 				435738D926002CAB00E5DFDF /* WebView.swift in Sources */,
+				4AD2A4242605CF2900E5A08E /* Fonts.swift in Sources */,
 				43A23E262601A8A000505C94 /* NavigationBarModifier.swift in Sources */,
 				435738D02600264700E5DFDF /* defaultInfo.swift in Sources */,
 				432AE785260005B80074511B /* ProyectoLabApp.swift in Sources */,

@@ -15,52 +15,53 @@ struct RestDetailView: View {
         GeometryReader{ geo in
             VStack{
                 ScrollView(.vertical, showsIndicators: false) {
-                    
                     VStack {
                         Text(rest.name)
-                            //.font(.NotoSans(size: 24))
-                            //.foregroundColor(Color("OrangeVille"))
+                            .font(.TinosBold(size: 30))
+                            .foregroundColor(Color("Negros"))
                             .multilineTextAlignment(.center)
-                            .padding(.horizontal, 20)
-                            .padding(.top, 6)
+                            .padding(.horizontal, 10)
+                            .padding(.top, 15)
                         
                         Text(rest.type)
-                            //.font(.NotoSans(size: 20))
-                            //.foregroundColor(Color("OrangeVille"))
+                            .font(.RalewaySemiBold(size: 17))
+                            .foregroundColor(Color("Naranjas"))
                             .multilineTextAlignment(.center)
                             .padding(.horizontal, 20)
-                            .padding(.top, 10)
+                            .padding(.top, 5)
                         
                         Text(rest.location)
-                            //.font(.NotoSans(size: 20))
-                            //.foregroundColor(Color("OrangeVille"))
+                            .font(.RalewaySemiBold(size: 20))
+                            .foregroundColor(Color("Negros"))
                             .multilineTextAlignment(.center)
                             .padding(.horizontal, 20)
-                            .padding(.top, 10)
+                            .padding(.top, 5)
                         
-                        Text(rest.cost)
-                            //.font(.NotoSans(size: 20))
-                            //.foregroundColor(Color("OrangeVille"))
+                        Text("$ - " + rest.cost)
+                            .font(.RalewaySemiBold(size: 20))
+                            .foregroundColor(Color("Negros"))
                             .multilineTextAlignment(.center)
                             .padding(.horizontal, 20)
-                            .padding(.top, 10)
-
+                            .padding(.top, 5)
+                        
                         
                         NavigationLink(
                             destination: WebView(html: rest.web),
                             label: {
-                                Label("Sitio Webw", systemImage: "play.circle.fill")
-                                    //.font(.NotoSans(size: 20))
-                                    //.foregroundColor(Color("OrangeVille"))
+                                Label("Sitio Web", systemImage: "play.circle.fill")
+                                    .font(.TinosBold(size: 20))
+                                    .foregroundColor(Color("Naranjas"))
                                     .multilineTextAlignment(.center)
                                     .padding(.horizontal, 20)
                                     .padding(.top, 10)
                             })
-                
-                            
                     }
+                    
                     VStack{
-                        TabView{
+                    
+                        ScrollView(.horizontal,showsIndicators: false)
+                        {
+                            HStack{
                             ForEach(rest.images, id:\.self) {image in
                                 Image(image)
                                     .resizable()
@@ -70,18 +71,17 @@ struct RestDetailView: View {
                                     .overlay(
                                         ZStack{
                                             RoundedRectangle(cornerRadius: 40)
-                                                .stroke(Color(.red), style: StrokeStyle(lineWidth: 10, lineCap: .round, lineJoin: .round))
-                                            
-                                    
+                                                .stroke(Color("Naranjas"), style: StrokeStyle(lineWidth: 10, lineCap: .round, lineJoin: .round))
                                         }
-                                        
                                     )
                                     .padding(.horizontal,20)
                                     .padding(.vertical, 10)
                             }
                         }
-                        .tabViewStyle(PageTabViewStyle())
+                        
+                        }
                     }
+                    
                 }
             }
             
@@ -90,9 +90,9 @@ struct RestDetailView: View {
             .toolbar {
                 // Es para poner el título
                 ToolbarItem(placement: .principal) {
-                    Text(rest.name)
-                        //.font(.NotoSans(size: 24))
-                        .foregroundColor(Color("OrangeVille"))
+                    Text("bienvenido a: ")
+                        .font(.TinosRegular(size: 24))
+                        .foregroundColor(Color("Negros"))
                 }
             }
         }
