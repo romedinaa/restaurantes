@@ -14,6 +14,8 @@ struct RestInfo: Identifiable{
     var rating: Double      //"4.5" **ver como cambiarlo para que sean icons
     
     var location: String    //ubicación restaurante
+    var latitude: Double    //coordenadas (latitud)
+    var longitude: Double   //coordenadas (longitud)
     var cost: String        //escrito asi = "$$$"
     var images: [String]    //array de imagened
     var web: String         // url al sitio web

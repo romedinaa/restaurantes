@@ -37,7 +37,7 @@ struct RestDetailView: View {
                             .padding(.horizontal, 20)
                             .padding(.top, 5)
                         
-                        Text("$ - " + rest.cost)
+                        Text("" + rest.cost)
                             .font(.RalewaySemiBold(size: 20))
                             .foregroundColor(Color("Negros"))
                             .multilineTextAlignment(.center)
@@ -80,6 +80,18 @@ struct RestDetailView: View {
                         }
                         
                         }
+                    }
+                    VStack {
+                        NavigationLink(
+                            destination: MapView(),
+                            label: {
+                                Label("Location", systemImage: "mappin.and.ellipse")
+                                    .font(.TinosBold(size: 20))
+                                    .foregroundColor(Color("Negros"))
+                                    .multilineTextAlignment(.center)
+                                    .padding(.horizontal, 20)
+                                    .padding(.top,0)
+                            })
                     }
                     
                 }

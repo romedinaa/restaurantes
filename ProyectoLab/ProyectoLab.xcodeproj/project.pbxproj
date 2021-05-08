@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F0C4F3226438EA90059265C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0C4F3126438EA90059265C /* MapView.swift */; };
 		432AE785260005B80074511B /* ProyectoLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432AE784260005B80074511B /* ProyectoLabApp.swift */; };
 		432AE789260005BA0074511B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432AE788260005BA0074511B /* Assets.xcassets */; };
 		432AE78C260005BA0074511B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432AE78B260005BA0074511B /* Preview Assets.xcassets */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F0C4F3126438EA90059265C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		432AE781260005B80074511B /* ProyectoLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		432AE784260005B80074511B /* ProyectoLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoLabApp.swift; sourceTree = "<group>"; };
 		432AE788260005BA0074511B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				43DA471526027CE200052230 /* RestView.swift */,
 				43DA471F26027FEF00052230 /* RestDetailView.swift */,
 				43DA471926027DA600052230 /* RestCellView.swift */,
+				1F0C4F3126438EA90059265C /* MapView.swift */,
 				435738D826002CAB00E5DFDF /* WebView.swift */,
 				435738C32600131B00E5DFDF /* RestInfo.swift */,
 				435738C62600136400E5DFDF /* RestInfoModel.swift */,
@@ -204,6 +207,7 @@
 				43A23E342601AD8C00505C94 /* CityView.swift in Sources */,
 				43DA471626027CE200052230 /* RestView.swift in Sources */,
 				435738D926002CAB00E5DFDF /* WebView.swift in Sources */,
+				1F0C4F3226438EA90059265C /* MapView.swift in Sources */,
 				4AD2A4242605CF2900E5A08E /* Fonts.swift in Sources */,
 				43A23E262601A8A000505C94 /* NavigationBarModifier.swift in Sources */,
 				435738D02600264700E5DFDF /* defaultInfo.swift in Sources */,
