@@ -12,7 +12,7 @@ struct RestInfo: Identifiable{
     var name: String        //nombre restaurante
     var type: String        // tipo de comida
     var rating: Double      //"4.5" **ver como cambiarlo para que sean icons
-    
+    var tel: String
     var location: String    //ubicación restaurante
     var latitude: Double    //coordenadas (latitud)
     var longitude: Double   //coordenadas (longitud)
@@ -20,6 +20,7 @@ struct RestInfo: Identifiable{
     var images: [String]    //array de imagened
     var web: String         // url al sitio web
 }
+
 
 
 /*

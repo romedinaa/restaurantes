@@ -20,9 +20,12 @@ struct CityView: View {
     
     let modelData: [City] = [
         City(cityname: "Monterrey", image: "flame"),
-        City(cityname: "Chihuahua", image: "star"),
+        City(cityname: "Chihuahua", image: "sun.dust"),
         City(cityname: "Cancún", image: "sun.max"),
-        City(cityname: "Tampico", image: "sun.haze")]
+        City(cityname: "Tampico", image: "sun.haze"),
+        City(cityname: "Favoritos", image: "star")]
+    
+    
     
     
     

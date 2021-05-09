@@ -50,8 +50,11 @@ struct RestView: View {
                         }
                     }
                     .padding(.top, 10)
+                    
                 }
-                .padding(.bottom, 100)
+                .padding(.bottom, 150)
+                
+                
             }
             
             .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)

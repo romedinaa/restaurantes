@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct RestDetailView: View {
+    @State private var showingSheet = false
     
     var rest: RestInfo
     
@@ -81,16 +82,36 @@ struct RestDetailView: View {
                         
                         }
                     }
+                    
+                    Button(action: {
+                                self.showingSheet = true
+                            }) {
+                        
+                        Label("Llamar", systemImage: "phone" )
+                            .font(.TinosBold(size: 25))
+                            .foregroundColor(Color("Negros"))
+                            
+                    }
+                    .padding(.top, 30)
+                    
+                    .actionSheet(isPresented: $showingSheet) {
+                               ActionSheet(title: Text("Llamar"),
+                                           buttons: [ .default(Text("Tel:"))
+                                               , .cancel()
+                                           ])
+                           }
+                       
+                   
                     VStack {
                         NavigationLink(
                             destination: MapView(),
                             label: {
                                 Label("Location", systemImage: "mappin.and.ellipse")
-                                    .font(.TinosBold(size: 20))
+                                    .font(.TinosBold(size: 30))
                                     .foregroundColor(Color("Negros"))
                                     .multilineTextAlignment(.center)
                                     .padding(.horizontal, 20)
-                                    .padding(.top,0)
+                                    .padding(.top,30)
                             })
                     }
                     

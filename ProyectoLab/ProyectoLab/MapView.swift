@@ -21,14 +21,13 @@ struct Place: Identifiable {
 
 struct MapView: View {
     // 1.
-    let places = [
+    let places =
+
+        [
         Place(name: "Fantino", latitude: 21.093215725505985, longitude: -86.76810623210594),
         Place(name: "Puerto Madero", latitude: 21.093445755161547, longitude: -86.77043967073487),
         Place(name: "Rosa Negra", latitude: 21.08523041202393, longitude: -86.77450741676334)
-        
-        
-        
-        
+
     ]
     
     // 2.
@@ -46,6 +45,7 @@ struct MapView: View {
         .ignoresSafeArea(.all)
     }
 }
+    
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
