@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1F0C4F3226438EA90059265C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0C4F3126438EA90059265C /* MapView.swift */; };
+		431B05812648C4C1009AF7D7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431B05802648C4C1009AF7D7 /* Persistence.swift */; };
+		431B05842648C4E6009AF7D7 /* ResenasModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 431B05822648C4E6009AF7D7 /* ResenasModel.xcdatamodeld */; };
+		431B05862648C562009AF7D7 /* AddToResenasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431B05852648C562009AF7D7 /* AddToResenasView.swift */; };
+		431B05882648C568009AF7D7 /* ResenasCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431B05872648C568009AF7D7 /* ResenasCellView.swift */; };
+		431B058A2648C575009AF7D7 /* ResenasDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431B05892648C575009AF7D7 /* ResenasDetailView.swift */; };
 		432AE785260005B80074511B /* ProyectoLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432AE784260005B80074511B /* ProyectoLabApp.swift */; };
 		432AE789260005BA0074511B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432AE788260005BA0074511B /* Assets.xcassets */; };
 		432AE78C260005BA0074511B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432AE78B260005BA0074511B /* Preview Assets.xcassets */; };
@@ -22,10 +27,8 @@
 		43DA471D26027E5800052230 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DA471C26027E5800052230 /* ScoreView.swift */; };
 		43DA472026027FEF00052230 /* RestDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DA471F26027FEF00052230 /* RestDetailView.swift */; };
 		4A4D7A8A2648732800FF4F4F /* ResenasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D7A892648732800FF4F4F /* ResenasView.swift */; };
-		4A4D7A932648780100FF4F4F /* ResenasModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D7A912648780100FF4F4F /* ResenasModel.xcdatamodeld */; };
 		4A4D7A9626487B1000FF4F4F /* Resenas+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D7A9426487B1000FF4F4F /* Resenas+CoreDataClass.swift */; };
 		4A4D7A9726487B1000FF4F4F /* Resenas+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D7A9526487B1000FF4F4F /* Resenas+CoreDataProperties.swift */; };
-		4A4D7A9C264884D200FF4F4F /* ResenasModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D7A9A264884D200FF4F4F /* ResenasModel.xcdatamodeld */; };
 		4AD2A4152605CEFD00E5A08E /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD2A4142605CEFD00E5A08E /* NotoSans-Regular.ttf */; };
 		4AD2A4182605CF0200E5A08E /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD2A4172605CF0200E5A08E /* Raleway-Medium.ttf */; };
 		4AD2A41B2605CF0900E5A08E /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD2A41A2605CF0900E5A08E /* Raleway-SemiBold.ttf */; };
@@ -37,6 +40,11 @@
 
 /* Begin PBXFileReference section */
 		1F0C4F3126438EA90059265C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		431B05802648C4C1009AF7D7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		431B05832648C4E6009AF7D7 /* ResenasModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ResenasModel.xcdatamodel; sourceTree = "<group>"; };
+		431B05852648C562009AF7D7 /* AddToResenasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToResenasView.swift; sourceTree = "<group>"; };
+		431B05872648C568009AF7D7 /* ResenasCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResenasCellView.swift; sourceTree = "<group>"; };
+		431B05892648C575009AF7D7 /* ResenasDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResenasDetailView.swift; sourceTree = "<group>"; };
 		432AE781260005B80074511B /* ProyectoLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		432AE784260005B80074511B /* ProyectoLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoLabApp.swift; sourceTree = "<group>"; };
 		432AE788260005BA0074511B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,10 +61,8 @@
 		43DA471C26027E5800052230 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 		43DA471F26027FEF00052230 /* RestDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestDetailView.swift; sourceTree = "<group>"; };
 		4A4D7A892648732800FF4F4F /* ResenasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResenasView.swift; sourceTree = "<group>"; };
-		4A4D7A922648780100FF4F4F /* ResenasModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ResenasModel.xcdatamodel; sourceTree = "<group>"; };
 		4A4D7A9426487B1000FF4F4F /* Resenas+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resenas+CoreDataClass.swift"; sourceTree = "<group>"; };
 		4A4D7A9526487B1000FF4F4F /* Resenas+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resenas+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		4A4D7A9B264884D200FF4F4F /* ResenasModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ResenasModel.xcdatamodel; sourceTree = "<group>"; };
 		4AD2A4142605CEFD00E5A08E /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
 		4AD2A4172605CF0200E5A08E /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
 		4AD2A41A2605CF0900E5A08E /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -104,6 +110,9 @@
 				4A4D7A90264877D600FF4F4F /* Core Data */,
 				43DA471926027DA600052230 /* RestCellView.swift */,
 				4A4D7A892648732800FF4F4F /* ResenasView.swift */,
+				431B05852648C562009AF7D7 /* AddToResenasView.swift */,
+				431B05872648C568009AF7D7 /* ResenasCellView.swift */,
+				431B05892648C575009AF7D7 /* ResenasDetailView.swift */,
 				1F0C4F3126438EA90059265C /* MapView.swift */,
 				435738D826002CAB00E5DFDF /* WebView.swift */,
 				435738C32600131B00E5DFDF /* RestInfo.swift */,
@@ -130,10 +139,10 @@
 		4A4D7A90264877D600FF4F4F /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
-				4A4D7A9A264884D200FF4F4F /* ResenasModel.xcdatamodeld */,
 				4A4D7A9426487B1000FF4F4F /* Resenas+CoreDataClass.swift */,
 				4A4D7A9526487B1000FF4F4F /* Resenas+CoreDataProperties.swift */,
-				4A4D7A912648780100FF4F4F /* ResenasModel.xcdatamodeld */,
+				431B05802648C4C1009AF7D7 /* Persistence.swift */,
+				431B05822648C4E6009AF7D7 /* ResenasModel.xcdatamodeld */,
 			);
 			path = "Core Data";
 			sourceTree = "<group>";
@@ -228,19 +237,22 @@
 			files = (
 				435738C42600131B00E5DFDF /* RestInfo.swift in Sources */,
 				43A23E342601AD8C00505C94 /* CityView.swift in Sources */,
+				431B05812648C4C1009AF7D7 /* Persistence.swift in Sources */,
+				431B058A2648C575009AF7D7 /* ResenasDetailView.swift in Sources */,
 				43DA471626027CE200052230 /* RestView.swift in Sources */,
-				4A4D7A932648780100FF4F4F /* ResenasModel.xcdatamodeld in Sources */,
 				435738D926002CAB00E5DFDF /* WebView.swift in Sources */,
 				1F0C4F3226438EA90059265C /* MapView.swift in Sources */,
 				4AD2A4242605CF2900E5A08E /* Fonts.swift in Sources */,
+				431B05842648C4E6009AF7D7 /* ResenasModel.xcdatamodeld in Sources */,
 				43A23E262601A8A000505C94 /* NavigationBarModifier.swift in Sources */,
+				431B05862648C562009AF7D7 /* AddToResenasView.swift in Sources */,
 				435738D02600264700E5DFDF /* defaultInfo.swift in Sources */,
 				4A4D7A8A2648732800FF4F4F /* ResenasView.swift in Sources */,
+				431B05882648C568009AF7D7 /* ResenasCellView.swift in Sources */,
 				432AE785260005B80074511B /* ProyectoLabApp.swift in Sources */,
 				43DA472026027FEF00052230 /* RestDetailView.swift in Sources */,
 				4A4D7A9626487B1000FF4F4F /* Resenas+CoreDataClass.swift in Sources */,
 				4A4D7A9726487B1000FF4F4F /* Resenas+CoreDataProperties.swift in Sources */,
-				4A4D7A9C264884D200FF4F4F /* ResenasModel.xcdatamodeld in Sources */,
 				43DA471A26027DA600052230 /* RestCellView.swift in Sources */,
 				435738C72600136400E5DFDF /* RestInfoModel.swift in Sources */,
 				43DA471D26027E5800052230 /* ScoreView.swift in Sources */,
@@ -434,22 +446,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		4A4D7A912648780100FF4F4F /* ResenasModel.xcdatamodeld */ = {
+		431B05822648C4E6009AF7D7 /* ResenasModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				4A4D7A922648780100FF4F4F /* ResenasModel.xcdatamodel */,
+				431B05832648C4E6009AF7D7 /* ResenasModel.xcdatamodel */,
 			);
-			currentVersion = 4A4D7A922648780100FF4F4F /* ResenasModel.xcdatamodel */;
-			path = ResenasModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		4A4D7A9A264884D200FF4F4F /* ResenasModel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4A4D7A9B264884D200FF4F4F /* ResenasModel.xcdatamodel */,
-			);
-			currentVersion = 4A4D7A9B264884D200FF4F4F /* ResenasModel.xcdatamodel */;
+			currentVersion = 431B05832648C4E6009AF7D7 /* ResenasModel.xcdatamodel */;
 			path = ResenasModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
