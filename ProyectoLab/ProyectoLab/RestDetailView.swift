@@ -59,49 +59,49 @@ struct RestDetailView: View {
                     }
                     
                     VStack{
-                    
+                        
                         ScrollView(.horizontal,showsIndicators: false)
                         {
                             HStack{
-                            ForEach(rest.images, id:\.self) {image in
-                                Image(image)
-                                    .resizable()
-                                    .scaledToFit()
-                                    .frame(width: geo.size.width-40)
-                                    .cornerRadius(40)
-                                    .overlay(
-                                        ZStack{
-                                            RoundedRectangle(cornerRadius: 40)
-                                                .stroke(Color("Naranjas"), style: StrokeStyle(lineWidth: 10, lineCap: .round, lineJoin: .round))
-                                        }
-                                    )
-                                    .padding(.horizontal,20)
-                                    .padding(.vertical, 10)
+                                ForEach(rest.images, id:\.self) {image in
+                                    Image(image)
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: geo.size.width-40)
+                                        .cornerRadius(40)
+                                        .overlay(
+                                            ZStack{
+                                                RoundedRectangle(cornerRadius: 40)
+                                                    .stroke(Color("Naranjas"), style: StrokeStyle(lineWidth: 10, lineCap: .round, lineJoin: .round))
+                                            }
+                                        )
+                                        .padding(.horizontal,20)
+                                        .padding(.vertical, 10)
+                                }
                             }
-                        }
-                        
+                            
                         }
                     }
                     
                     Button(action: {
-                                self.showingSheet = true
-                            }) {
+                        self.showingSheet = true
+                    }) {
                         
                         Label("Llamar", systemImage: "phone" )
                             .font(.TinosBold(size: 25))
                             .foregroundColor(Color("Negros"))
-                            
+                        
                     }
                     .padding(.top, 30)
-                    
                     .actionSheet(isPresented: $showingSheet) {
-                               ActionSheet(title: Text("Llamar"),
-                                           buttons: [ .default(Text("Tel:"))
-                                               , .cancel()
-                                           ])
-                           }
-                       
-                   
+                        ActionSheet(title: Text("Llamar"),
+                                    buttons: [
+                                        .default(Text(rest.tel) )
+                                        , .cancel()
+                                    ])
+                    }
+                    
+                    
                     VStack {
                         NavigationLink(
                             destination: MapView(),

@@ -23,7 +23,7 @@ struct CityView: View {
         City(cityname: "Chihuahua", image: "sun.dust"),
         City(cityname: "Cancún", image: "sun.max"),
         City(cityname: "Tampico", image: "sun.haze"),
-        City(cityname: "Favoritos", image: "star")]
+        City(cityname: "Favoritos", image: "star.fill")]
     
     
     
@@ -42,12 +42,14 @@ struct CityView: View {
                             HStack {
                                 
                                 Image(systemName: city.image)
-                                    .frame(width: 50, height: 10, alignment: .leading)
+                                    .foregroundColor(Color(city.image == "star.fill" ? "Favoritos": "Naranjas"))
+                                    .frame(width: 50, height: 10)
                                 
                                 VStack {
                                     
                                     Text(city.cityname)
-                                        .foregroundColor(Color("Naranjas"))
+//                                        .foregroundColor(Color("Naranjas"))
+                                        .foregroundColor(Color(city.cityname == "Favoritos" ? "Favoritos": "Negros"))
                                         .font(.TinosBold(size: 35))
                                         .padding()
                                     
