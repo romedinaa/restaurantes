@@ -104,7 +104,7 @@ struct RestDetailView: View {
                     
                     VStack {
                         NavigationLink(
-                            destination: MapView(),
+                            destination: MapView(places: CityPlaces()),
                             label: {
                                 Label("Location", systemImage: "mappin.and.ellipse")
                                     .font(.TinosBold(size: 30))
@@ -129,6 +129,24 @@ struct RestDetailView: View {
                 }
             }
         }
+    }
+    
+    func CityPlaces() -> [Place] {
+        
+        switch rest.location {
+        case "Monterrey":
+            return Place.monterrey
+        case "Cancún":
+            return Place.cancun
+        case "Chihuahua":
+            return Place.chihuahua
+        case "Tampico":
+            return Place.tampico
+        
+        default:
+            return Place.cancun
+        }
+        
     }
 }
 

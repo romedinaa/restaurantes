@@ -42,7 +42,7 @@ struct RestView: View {
                                         label: {
 //              if restaurante.location == city.cityname {
                                             
-                                            RestCellView(rest: restaurante)
+                                            RestCellView(restinfo: restaurante, isMovie: true)
                                                 .frame(width: geo.size.width)
                                         })
                                 }

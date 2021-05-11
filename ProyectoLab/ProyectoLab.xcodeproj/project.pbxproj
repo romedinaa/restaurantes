@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1F0C4F3226438EA90059265C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0C4F3126438EA90059265C /* MapView.swift */; };
+		1F6DD01A264A7586004D0BD4 /* ResenasModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 431B05822648C4E6009AF7D7 /* ResenasModel.xcdatamodeld */; };
+		32678BD0264A1C4D00CD7D5D /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32678BCF264A1C4D00CD7D5D /* Place.swift */; };
 		431B05812648C4C1009AF7D7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431B05802648C4C1009AF7D7 /* Persistence.swift */; };
-		431B05842648C4E6009AF7D7 /* ResenasModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 431B05822648C4E6009AF7D7 /* ResenasModel.xcdatamodeld */; };
 		431B05862648C562009AF7D7 /* AddToResenasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431B05852648C562009AF7D7 /* AddToResenasView.swift */; };
 		431B05882648C568009AF7D7 /* ResenasCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431B05872648C568009AF7D7 /* ResenasCellView.swift */; };
 		431B058A2648C575009AF7D7 /* ResenasDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431B05892648C575009AF7D7 /* ResenasDetailView.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		1F0C4F3126438EA90059265C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		32678BCF264A1C4D00CD7D5D /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		431B05802648C4C1009AF7D7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		431B05832648C4E6009AF7D7 /* ResenasModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ResenasModel.xcdatamodel; sourceTree = "<group>"; };
 		431B05852648C562009AF7D7 /* AddToResenasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToResenasView.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				431B05872648C568009AF7D7 /* ResenasCellView.swift */,
 				431B05892648C575009AF7D7 /* ResenasDetailView.swift */,
 				1F0C4F3126438EA90059265C /* MapView.swift */,
+				32678BCF264A1C4D00CD7D5D /* Place.swift */,
 				435738D826002CAB00E5DFDF /* WebView.swift */,
 				435738C32600131B00E5DFDF /* RestInfo.swift */,
 				435738C62600136400E5DFDF /* RestInfoModel.swift */,
@@ -243,7 +246,7 @@
 				435738D926002CAB00E5DFDF /* WebView.swift in Sources */,
 				1F0C4F3226438EA90059265C /* MapView.swift in Sources */,
 				4AD2A4242605CF2900E5A08E /* Fonts.swift in Sources */,
-				431B05842648C4E6009AF7D7 /* ResenasModel.xcdatamodeld in Sources */,
+				32678BD0264A1C4D00CD7D5D /* Place.swift in Sources */,
 				43A23E262601A8A000505C94 /* NavigationBarModifier.swift in Sources */,
 				431B05862648C562009AF7D7 /* AddToResenasView.swift in Sources */,
 				435738D02600264700E5DFDF /* defaultInfo.swift in Sources */,
@@ -252,6 +255,7 @@
 				432AE785260005B80074511B /* ProyectoLabApp.swift in Sources */,
 				43DA472026027FEF00052230 /* RestDetailView.swift in Sources */,
 				4A4D7A9626487B1000FF4F4F /* Resenas+CoreDataClass.swift in Sources */,
+				1F6DD01A264A7586004D0BD4 /* ResenasModel.xcdatamodeld in Sources */,
 				4A4D7A9726487B1000FF4F4F /* Resenas+CoreDataProperties.swift in Sources */,
 				43DA471A26027DA600052230 /* RestCellView.swift in Sources */,
 				435738C72600136400E5DFDF /* RestInfoModel.swift in Sources */,

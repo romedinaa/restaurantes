@@ -7,12 +7,11 @@
 
 import SwiftUI
 
-struct SwiftUIView: View {
+struct ResenasView: View {
     
-   // @StateObject var media:
     @Environment(\.managedObjectContext) var viewContext
     
-    @StateObject var rest: RestInfoModel
+    @StateObject var restinfo: RestInfoModel
     @FetchRequest(
         entity: Resenas.entity(),
     sortDescriptors: [NSSortDescriptor(key: "date", ascending: false)]
@@ -36,15 +35,15 @@ struct SwiftUIView: View {
                         VStack (spacing: 0){
                         ForEach(resenas){ res in
                             VStack {
-                                NavigationLink(destination: ResenasDetailView (rest: rest, res:res),
+                                NavigationLink(destination: ResenasDetailView (rest: restinfo, res: res),
                                 label: {
-                                    ResenasCellView (res: res )
+                                    ResenasCellView (res: res)
                                         .frame(height: 200)
                                         .padding(.horizontal, 20 )
                                 })
                             }
                             .background (
-                                Color("Naranja"  )
+                                Color("Naranja")
                             )
                             .contextMenu(){
                                 Button {
@@ -82,29 +81,31 @@ struct SwiftUIView: View {
     
     func SaveToFavorites() {
         
-        let fav = Resenas(context: viewContext)
-        fav.id = Int32(Video.defaultVideo.id)
-        fav.title = Video.defaultVideo.title
-        fav.overview = Video.defaultVideo.overview
-        for genre in Video.defaultVideo.genre_ids {
-            fav.genre_ids.append(Int32(genre))
-        }
-        fav.poster_path = Video.defaultVideo.poster_path
-        fav.release_date = Video.defaultVideo.release_date
-        fav.vote_average = Video.defaultVideo.vote_average
-        fav.is_movie = true
+        let res = Resenas(context: viewContext)
+        res.id = RestInfo.defaultInfo.id
+        res.name = RestInfo.defaultInfo.name
+        res.type = RestInfo.defaultInfo.type
+        res.rating = RestInfo.defaultInfo.rating
+        res.tel = RestInfo.defaultInfo.tel
+        res.location = RestInfo.defaultInfo.location
+        res.latitude = RestInfo.defaultInfo.latitude
+        res.longitude = RestInfo.defaultInfo.longitude
+        res.cost = RestInfo.defaultInfo.cost
+        res.images = RestInfo.defaultInfo.images
+        res.web = RestInfo.defaultInfo.web
+
         try? viewContext.save()
         
     }
     
-    func DeleteFromFavorites (fav : Resenas ){
-        viewContext.delete(fav)
+    func DeleteFromFavorites (res : Resenas ){
+        viewContext.delete(res)
         try? viewContext.save()
     }
 }
 
 struct ResenasView_Previews: PreviewProvider {
     static var previews: some View {
-        FavoritesView(media: MediaModel())
+        ResenasView(restinfo: RestInfoModel())
     }
 }
