@@ -8,10 +8,16 @@
 import SwiftUI
 
 @main
+
 struct ProyectoLabApp: App {
+    
+    let persistenceController = PersistenceController.shared
+    
     var body: some Scene {
         WindowGroup {
             CityView()
+                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                
         }
     }
 }

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1F0C4F3226438EA90059265C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0C4F3126438EA90059265C /* MapView.swift */; };
 		1F6DD01A264A7586004D0BD4 /* ResenasModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 431B05822648C4E6009AF7D7 /* ResenasModel.xcdatamodeld */; };
+		325190A7264B5D1900281B3C /* RestFavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325190A6264B5D1900281B3C /* RestFavView.swift */; };
 		32678BD0264A1C4D00CD7D5D /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32678BCF264A1C4D00CD7D5D /* Place.swift */; };
 		431B05812648C4C1009AF7D7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431B05802648C4C1009AF7D7 /* Persistence.swift */; };
 		431B05862648C562009AF7D7 /* AddToResenasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431B05852648C562009AF7D7 /* AddToResenasView.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		1F0C4F3126438EA90059265C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		325190A6264B5D1900281B3C /* RestFavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestFavView.swift; sourceTree = "<group>"; };
 		32678BCF264A1C4D00CD7D5D /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		431B05802648C4C1009AF7D7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		431B05832648C4E6009AF7D7 /* ResenasModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ResenasModel.xcdatamodel; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				432AE784260005B80074511B /* ProyectoLabApp.swift */,
 				43A23E332601AD8C00505C94 /* CityView.swift */,
 				43DA471526027CE200052230 /* RestView.swift */,
+				325190A6264B5D1900281B3C /* RestFavView.swift */,
 				43DA471F26027FEF00052230 /* RestDetailView.swift */,
 				4A4D7A90264877D600FF4F4F /* Core Data */,
 				43DA471926027DA600052230 /* RestCellView.swift */,
@@ -257,6 +260,7 @@
 				4A4D7A9626487B1000FF4F4F /* Resenas+CoreDataClass.swift in Sources */,
 				1F6DD01A264A7586004D0BD4 /* ResenasModel.xcdatamodeld in Sources */,
 				4A4D7A9726487B1000FF4F4F /* Resenas+CoreDataProperties.swift in Sources */,
+				325190A7264B5D1900281B3C /* RestFavView.swift in Sources */,
 				43DA471A26027DA600052230 /* RestCellView.swift in Sources */,
 				435738C72600136400E5DFDF /* RestInfoModel.swift in Sources */,
 				43DA471D26027E5800052230 /* ScoreView.swift in Sources */,

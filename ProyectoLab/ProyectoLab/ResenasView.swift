@@ -14,20 +14,20 @@ struct ResenasView: View {
     @StateObject var restinfo: RestInfoModel
     @FetchRequest(
         entity: Resenas.entity(),
-    sortDescriptors: [NSSortDescriptor(key: "date", ascending: false)]
-    )
+    sortDescriptors: [NSSortDescriptor(key: "name", ascending: false)])
+    
     var resenas: FetchedResults<Resenas>
     
     
     var body: some View {
         GeometryReader { geo in
             ZStack{
-                Color("SourLemon")
+                Color("Blancos")
                 VStack {
                     VStack{
                         Text("Restaurantes")
                             .font(.TinosBold(size: 48))
-                            .foregroundColor(Color("Naranja"))
+                            .foregroundColor(Color("Naranjas"))
                             .padding(.top, 40)
                     }
                     
@@ -35,7 +35,8 @@ struct ResenasView: View {
                         VStack (spacing: 0){
                         ForEach(resenas){ res in
                             VStack {
-                                NavigationLink(destination: ResenasDetailView (rest: restinfo, res: res),
+                                NavigationLink(
+                                    destination: ResenasDetailView (rest: RestInfo.defaultInfo, rese: Resenas.init(), resta: RestInfoModel.init()),
                                 label: {
                                     ResenasCellView (res: res)
                                         .frame(height: 200)
@@ -43,7 +44,7 @@ struct ResenasView: View {
                                 })
                             }
                             .background (
-                                Color("Naranja")
+                                Color("Naranjas")
                             )
                             .contextMenu(){
                                 Button {
@@ -80,6 +81,7 @@ struct ResenasView: View {
     }
     
     func SaveToFavorites() {
+        
         
         let res = Resenas(context: viewContext)
         res.id = RestInfo.defaultInfo.id

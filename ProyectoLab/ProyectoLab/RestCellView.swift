@@ -39,7 +39,7 @@ struct RestCellView: View {
                                     VStack {
                                         HStack {
                                             Spacer()
-                                            AddToResenasView(rest: restinfo, isMovie: isMovie)
+                                            AddToResenasView(rest: restinfo)
                                                 .padding(.trailing, 20)
                                                 .padding(.top, 20)
 

@@ -17,17 +17,16 @@ struct AddToResenasView: View {
     }
 
     var rest: RestInfo
-    var isMovie: Bool
 
     var body: some View {
         VStack {
             if resenas.count == 0 {
                 Button(action: {
-                    self.SaveRestToFav(rest: rest, isMovie: isMovie)
+                    self.SaveRestToFav(rest: rest)
                 }) {
                     Image(systemName: "star")
                         .foregroundColor(.gray)
-                        .font(.system(size: 40))
+                        .font(.system(size: 35))
                 }
             } else {
                 Button(action: {
@@ -41,14 +40,13 @@ struct AddToResenasView: View {
         }
     }
 
-    init(rest: RestInfo, isMovie: Bool) {
+    init(rest: RestInfo) {
         self.rest = rest
-        self.isMovie = isMovie
         fetchRequest = FetchRequest<Resenas>(entity: Resenas.entity(), sortDescriptors: [],
-                                             predicate: NSPredicate(format: "id == %@", NSNumber(nonretainedObject: rest.id)))
+                                             predicate: NSPredicate(format: "name == %@", rest.name))
     }
 
-    func SaveRestToFav(rest: RestInfo, isMovie: Bool) {
+    func SaveRestToFav(rest: RestInfo) {
         let r = Resenas(context: viewContext)
         r.id = rest.id
         r.name = rest.name
@@ -77,6 +75,6 @@ struct AddToResenasView: View {
 
 struct AddToFavoritesView_Previews: PreviewProvider {
     static var previews: some View {
-        AddToResenasView(rest: RestInfo.defaultInfo, isMovie: true)
+        AddToResenasView(rest: RestInfo.defaultInfo)
     }
 }

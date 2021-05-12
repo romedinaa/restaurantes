@@ -35,10 +35,11 @@ struct CityView: View {
             ZStack{
                 VStack {
                     List(modelData) { city in
+                        
                         NavigationLink(
                             destination:
                                 
-                                RestView(rest: rest, city: city.cityname)){
+                                RestFavView(rest: rest, city: city.cityname)) {
                             HStack {
                                 
                                 Image(systemName: city.image)
@@ -56,7 +57,7 @@ struct CityView: View {
                                 }
                             }.font(.largeTitle)
                             
-                            
+                        
                         }
                         .ignoresSafeArea(.all)
                         

@@ -40,7 +40,7 @@ struct ResenasCellView: View {
                             .scaleEffect(0.8)
 
                     }
-                    .foregroundColor(Color("SourLemon"))
+                    .foregroundColor(Color("Naranjas"))
                     Spacer()
                 }
                 .padding(.vertical, 10)

@@ -9,7 +9,6 @@ import SwiftUI
 import MapKit
 
 
-
 struct MapView: View {
     // 1.
     var places: [Place]
