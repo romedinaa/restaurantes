@@ -14,38 +14,33 @@ struct ResenasCellView: View {
     
     var body: some View {
         GeometryReader { geo in
-            VStack {
+            
                 HStack {
-//                    KFImage(URL(string: fav.poster_path_wrapped)!)
-//                        .placeholder {
-//                            ProgressView()
-//                        }
-//                        .resizable()
-//                        .scaledToFill()
-//                        .frame(width: 120, height: 180)
-//                        .cornerRadius(20)
-//                        .overlay(
-//                            RoundedRectangle(cornerRadius: 20)
-//                                .stroke(Color("SourLemon"), style: StrokeStyle(lineWidth: 4, lineCap: .round, lineJoin: .round))
-//                        )
-//                    Spacer()
-                    VStack {
-                        Text(res.name_wrapped)
-                            .font(.TinosBold(size: 24))
-                            .multilineTextAlignment(.center)
-                        Text("(\(String(res.type_wrapped)))")
-                            .font(.TinosBold(size: 20))
-                            .multilineTextAlignment(.center)
-                        ScoreView(rating: res.rating * 10)
-                            .scaleEffect(0.8)
-
-                    }
-                    .foregroundColor(Color("Naranjas"))
-                    Spacer()
-                }
-                .padding(.vertical, 10)
-
-            }
+                            ScoreView(rating: res.rating * 10)
+                                .scaleEffect(1.2)
+                    
+                    VStack (alignment: .center, spacing: 10){
+                                Text(res.name_wrapped)
+                                    .font(.TinosBold(size: 24))
+                                    .multilineTextAlignment(.center)
+                                Text("(\(String(res.type_wrapped)))")
+                                    .font(.TinosBold(size: 20))
+                                    .multilineTextAlignment(.center)
+                                Text(res.location_wrapped)
+                                    .font(.TinosBold(size: 20))
+                                    .multilineTextAlignment(.center)
+                                
+                                
+                            
+                    }.padding(.horizontal, 40)
+                    .padding(.top, 30)
+                        
+                        .foregroundColor(Color("Negros"))
+                 
+                } .padding(.horizontal, 10)
+                .padding(.top, 30)
+                
+            
         }
     }
 }

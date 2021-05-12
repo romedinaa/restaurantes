@@ -9,15 +9,15 @@ import SwiftUI
 
 struct RestCellView: View {
     
-    var restinfo: RestInfo
-    var isMovie: Bool
+    var info: RestInfo
+//    var isMovie: Bool
     
     var body: some View {
         GeometryReader{ geo in
             VStack{
                 ZStack{
                     VStack{
-                        Image(restinfo.images[0])
+                        Image(info.images[0])
                             .resizable()
                             .scaledToFit()
                             .frame(width: geo.size.width-40)
@@ -30,7 +30,7 @@ struct RestCellView: View {
                                     VStack{
                                         Spacer()
                                         HStack{
-                                            ScoreView(rating: restinfo.rating)
+                                            ScoreView(rating: info.rating)
                                             Spacer()
                                         }
                                         .padding(.leading, 40)
@@ -39,7 +39,7 @@ struct RestCellView: View {
                                     VStack {
                                         HStack {
                                             Spacer()
-                                            AddToResenasView(rest: restinfo)
+                                            AddToResenasView(rest: info)
                                                 .padding(.trailing, 20)
                                                 .padding(.top, 20)
 
@@ -56,14 +56,14 @@ struct RestCellView: View {
                 }
                 VStack{
                     HStack{
-                        Text(restinfo.name)
+                        Text(info.name)
                             .font(.RalewaySemiBold(size: 25))
                     }
                     .padding(.top, 50)
                     
                     //aqui iria una descripción del restaurante
                     HStack{
-                        Text((String(restinfo.type)))
+                        Text((String(info.type)))
                             
                             .font(.RalewayBold(size: 15))
                     }
@@ -80,6 +80,6 @@ struct RestCellView: View {
 
 struct RestCellView_Previews: PreviewProvider {
     static var previews: some View {
-        RestCellView(restinfo: RestInfo.defaultInfo, isMovie: true)
+        RestCellView(info: RestInfo.defaultInfo)
     }
 }

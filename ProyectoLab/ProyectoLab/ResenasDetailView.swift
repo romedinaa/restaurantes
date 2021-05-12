@@ -10,11 +10,12 @@ import SwiftUI
 struct ResenasDetailView: View {
     
     
-    @State var restaurants = [RestInfo]()
+    
     
     var rest: RestInfo
-    var rese: Resenas
     var resta: RestInfoModel
+    //var fav: Resenas
+    @State var restaurants = [RestInfo]()
     
     @State private var showingSheet = false
     
@@ -90,37 +91,8 @@ struct ResenasDetailView: View {
                         }
                     }
                     
-                    Button(action: {
-                        self.showingSheet = true
-                    }) {
-                        
-                        Label("Llamar", systemImage: "phone" )
-                            .font(.TinosBold(size: 25))
-                            .foregroundColor(Color("Negros"))
-                        
-                    }
                     .padding(.top, 30)
-                    .actionSheet(isPresented: $showingSheet) {
-                        ActionSheet(title: Text("Llamar"),
-                                    buttons: [
-                                        .default(Text(rest.tel) )
-                                        , .cancel()
-                                    ])
-                    }
                     
-                    
-                    VStack {
-                        NavigationLink(
-                            destination: MapView(places:CityPlaces()),
-                            label:{
-                            Label("Location", systemImage: "mappin.and.ellipse")
-                                    .font(.TinosBold(size: 30))
-                                    .foregroundColor(Color("Negros"))
-                                    .multilineTextAlignment(.center)
-                                    .padding(.horizontal, 20)
-                                    .padding(.top,30)
-                            })
-                    }
                     
                 }
             }
@@ -159,7 +131,7 @@ struct ResenasDetailView: View {
 
 struct ResenasDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ResenasDetailView(rest: RestInfo.defaultInfo, rese: Resenas(), resta: RestInfoModel.init())
+        ResenasDetailView( rest: RestInfo.defaultInfo, resta: RestInfoModel.init())
     }
 }
 

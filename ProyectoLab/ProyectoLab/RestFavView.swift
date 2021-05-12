@@ -22,11 +22,14 @@ struct RestFavView: View {
                     if city != "Favoritos" {
                         RestView(rest: rest, city: city)
                     } else {
-                        ResenasView(restinfo: rest)
+                        ResenasView(info: rest)
                     }
                      
             }
             
+                
+                
+                
             .onAppear{
                 switch city {
                 case "Monterrey":

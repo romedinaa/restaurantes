@@ -14,7 +14,6 @@
 		431B05812648C4C1009AF7D7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431B05802648C4C1009AF7D7 /* Persistence.swift */; };
 		431B05862648C562009AF7D7 /* AddToResenasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431B05852648C562009AF7D7 /* AddToResenasView.swift */; };
 		431B05882648C568009AF7D7 /* ResenasCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431B05872648C568009AF7D7 /* ResenasCellView.swift */; };
-		431B058A2648C575009AF7D7 /* ResenasDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431B05892648C575009AF7D7 /* ResenasDetailView.swift */; };
 		432AE785260005B80074511B /* ProyectoLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432AE784260005B80074511B /* ProyectoLabApp.swift */; };
 		432AE789260005BA0074511B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432AE788260005BA0074511B /* Assets.xcassets */; };
 		432AE78C260005BA0074511B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432AE78B260005BA0074511B /* Preview Assets.xcassets */; };
@@ -24,6 +23,7 @@
 		435738D926002CAB00E5DFDF /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435738D826002CAB00E5DFDF /* WebView.swift */; };
 		43A23E262601A8A000505C94 /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A23E252601A8A000505C94 /* NavigationBarModifier.swift */; };
 		43A23E342601AD8C00505C94 /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A23E332601AD8C00505C94 /* CityView.swift */; };
+		43CE4A0B264BAB6D00978DC5 /* ResenasDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CE4A0A264BAB6D00978DC5 /* ResenasDetailView.swift */; };
 		43DA471626027CE200052230 /* RestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DA471526027CE200052230 /* RestView.swift */; };
 		43DA471A26027DA600052230 /* RestCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DA471926027DA600052230 /* RestCellView.swift */; };
 		43DA471D26027E5800052230 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DA471C26027E5800052230 /* ScoreView.swift */; };
@@ -48,7 +48,6 @@
 		431B05832648C4E6009AF7D7 /* ResenasModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ResenasModel.xcdatamodel; sourceTree = "<group>"; };
 		431B05852648C562009AF7D7 /* AddToResenasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToResenasView.swift; sourceTree = "<group>"; };
 		431B05872648C568009AF7D7 /* ResenasCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResenasCellView.swift; sourceTree = "<group>"; };
-		431B05892648C575009AF7D7 /* ResenasDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResenasDetailView.swift; sourceTree = "<group>"; };
 		432AE781260005B80074511B /* ProyectoLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		432AE784260005B80074511B /* ProyectoLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoLabApp.swift; sourceTree = "<group>"; };
 		432AE788260005BA0074511B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,6 +59,7 @@
 		435738D826002CAB00E5DFDF /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		43A23E252601A8A000505C94 /* NavigationBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
 		43A23E332601AD8C00505C94 /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
+		43CE4A0A264BAB6D00978DC5 /* ResenasDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResenasDetailView.swift; sourceTree = "<group>"; };
 		43DA471526027CE200052230 /* RestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestView.swift; sourceTree = "<group>"; };
 		43DA471926027DA600052230 /* RestCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestCellView.swift; sourceTree = "<group>"; };
 		43DA471C26027E5800052230 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
@@ -114,10 +114,10 @@
 				43DA471F26027FEF00052230 /* RestDetailView.swift */,
 				4A4D7A90264877D600FF4F4F /* Core Data */,
 				43DA471926027DA600052230 /* RestCellView.swift */,
+				43CE4A0A264BAB6D00978DC5 /* ResenasDetailView.swift */,
 				4A4D7A892648732800FF4F4F /* ResenasView.swift */,
 				431B05852648C562009AF7D7 /* AddToResenasView.swift */,
 				431B05872648C568009AF7D7 /* ResenasCellView.swift */,
-				431B05892648C575009AF7D7 /* ResenasDetailView.swift */,
 				1F0C4F3126438EA90059265C /* MapView.swift */,
 				32678BCF264A1C4D00CD7D5D /* Place.swift */,
 				435738D826002CAB00E5DFDF /* WebView.swift */,
@@ -244,7 +244,6 @@
 				435738C42600131B00E5DFDF /* RestInfo.swift in Sources */,
 				43A23E342601AD8C00505C94 /* CityView.swift in Sources */,
 				431B05812648C4C1009AF7D7 /* Persistence.swift in Sources */,
-				431B058A2648C575009AF7D7 /* ResenasDetailView.swift in Sources */,
 				43DA471626027CE200052230 /* RestView.swift in Sources */,
 				435738D926002CAB00E5DFDF /* WebView.swift in Sources */,
 				1F0C4F3226438EA90059265C /* MapView.swift in Sources */,
@@ -264,6 +263,7 @@
 				43DA471A26027DA600052230 /* RestCellView.swift in Sources */,
 				435738C72600136400E5DFDF /* RestInfoModel.swift in Sources */,
 				43DA471D26027E5800052230 /* ScoreView.swift in Sources */,
+				43CE4A0B264BAB6D00978DC5 /* ResenasDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

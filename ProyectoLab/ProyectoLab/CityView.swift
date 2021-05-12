@@ -47,9 +47,7 @@ struct CityView: View {
                                     .frame(width: 50, height: 10)
                                 
                                 VStack {
-                                    
                                     Text(city.cityname)
-//                                        .foregroundColor(Color("Naranjas"))
                                         .foregroundColor(Color(city.cityname == "Favoritos" ? "Favoritos": "Negros"))
                                         .font(.TinosBold(size: 35))
                                         .padding()

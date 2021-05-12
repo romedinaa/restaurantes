@@ -11,7 +11,7 @@ struct ResenasView: View {
     
     @Environment(\.managedObjectContext) var viewContext
     
-    @StateObject var restinfo: RestInfoModel
+    @StateObject var info: RestInfoModel
     @FetchRequest(
         entity: Resenas.entity(),
     sortDescriptors: [NSSortDescriptor(key: "name", ascending: false)])
@@ -28,24 +28,20 @@ struct ResenasView: View {
                         Text("Restaurantes")
                             .font(.TinosBold(size: 48))
                             .foregroundColor(Color("Naranjas"))
-                            .padding(.top, 40)
+                            .padding(.top, 100)
                     }
                     
                     ScrollView(.vertical, showsIndicators: false) {
                         VStack (spacing: 0){
                         ForEach(resenas){ res in
                             VStack {
-                                NavigationLink(
-                                    destination: ResenasDetailView (rest: RestInfo.defaultInfo, rese: Resenas.init(), resta: RestInfoModel.init()),
-                                label: {
+                                
                                     ResenasCellView (res: res)
                                         .frame(height: 200)
                                         .padding(.horizontal, 20 )
-                                })
+                                
                             }
-                            .background (
-                                Color("Naranjas")
-                            )
+                            .background (Color("Naranjas"))
                             .contextMenu(){
                                 Button {
                                     DeleteFromFavorites(res : res)
@@ -108,6 +104,6 @@ struct ResenasView: View {
 
 struct ResenasView_Previews: PreviewProvider {
     static var previews: some View {
-        ResenasView(restinfo: RestInfoModel())
+        ResenasView(info: RestInfoModel())
     }
 }
