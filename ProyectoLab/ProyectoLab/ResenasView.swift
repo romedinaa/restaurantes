@@ -89,7 +89,7 @@ struct ResenasView: View {
         res.latitude = RestInfo.defaultInfo.latitude
         res.longitude = RestInfo.defaultInfo.longitude
         res.cost = RestInfo.defaultInfo.cost
-        res.images = RestInfo.defaultInfo.images
+        res.images = RestInfo.defaultInfo.images as NSObject
         res.web = RestInfo.defaultInfo.web
 
         try? viewContext.save()

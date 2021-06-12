@@ -57,7 +57,7 @@ struct AddToResenasView: View {
         r.latitude = rest.latitude
         r.longitude = rest.longitude
         r.cost = rest.cost
-        r.images = rest.images
+        r.images = rest.images as NSObject
         r.web = rest.web
 
         try? viewContext.save()

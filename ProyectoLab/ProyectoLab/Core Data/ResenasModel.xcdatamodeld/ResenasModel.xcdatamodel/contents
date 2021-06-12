@@ -2,7 +2,7 @@
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="Resenas" representedClassName=".Resenas" syncable="YES">
         <attribute name="cost" optional="YES" attributeType="String"/>
-        <attribute name="id" optional="YES" attributeType="Transformable" valueTransformerName="NSAttributedString"/>
+        <attribute name="id" optional="YES" attributeType="UUID" valueTransformerName="NSAttributedString" usesScalarValueType="NO"/>
         <attribute name="images" optional="YES" attributeType="Transformable"/>
         <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="location" optional="YES" attributeType="String"/>
