@@ -54,6 +54,8 @@
 		43E220142675933000072CCD /* RestFavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325190A6264B5D1900281B3C /* RestFavView.swift */; };
 		43E220152675933400072CCD /* RestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DA471526027CE200052230 /* RestView.swift */; };
 		43E220162675943E00072CCD /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD2A4232605CF2900E5A08E /* Fonts.swift */; };
+		43E220182675A56100072CCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432AE788260005BA0074511B /* Assets.xcassets */; };
+		43E220192675A56400072CCD /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AD2A4312605D70900E5A08E /* Colors.xcassets */; };
 		4A4D7A8A2648732800FF4F4F /* ResenasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D7A892648732800FF4F4F /* ResenasView.swift */; };
 		4A4D7A9626487B1000FF4F4F /* Resenas+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D7A9426487B1000FF4F4F /* Resenas+CoreDataClass.swift */; };
 		4A4D7A9726487B1000FF4F4F /* Resenas+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D7A9526487B1000FF4F4F /* Resenas+CoreDataProperties.swift */; };
@@ -350,6 +352,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43E220192675A56400072CCD /* Colors.xcassets in Resources */,
+				43E220182675A56100072CCD /* Assets.xcassets in Resources */,
 				43E21FF8267592AC00072CCD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
