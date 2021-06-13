@@ -28,6 +28,32 @@
 		43DA471A26027DA600052230 /* RestCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DA471926027DA600052230 /* RestCellView.swift */; };
 		43DA471D26027E5800052230 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DA471C26027E5800052230 /* ScoreView.swift */; };
 		43DA472026027FEF00052230 /* RestDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DA471F26027FEF00052230 /* RestDetailView.swift */; };
+		43E21FF1267592AB00072CCD /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E21FF0267592AB00072CCD /* WidgetKit.framework */; };
+		43E21FF3267592AB00072CCD /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E21FF2267592AB00072CCD /* SwiftUI.framework */; };
+		43E21FF6267592AB00072CCD /* RestWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E21FF5267592AB00072CCD /* RestWidget.swift */; };
+		43E21FF8267592AC00072CCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43E21FF7267592AC00072CCD /* Assets.xcassets */; };
+		43E21FFC267592AC00072CCD /* RestWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 43E21FEE267592AB00072CCD /* RestWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		43E22002267592F200072CCD /* RestWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E22001267592F200072CCD /* RestWidgetView.swift */; };
+		43E220032675930500072CCD /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A23E252601A8A000505C94 /* NavigationBarModifier.swift */; };
+		43E220042675930700072CCD /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DA471C26027E5800052230 /* ScoreView.swift */; };
+		43E220052675930A00072CCD /* defaultInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435738CF2600264600E5DFDF /* defaultInfo.swift */; };
+		43E220062675930C00072CCD /* RestInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435738C62600136400E5DFDF /* RestInfoModel.swift */; };
+		43E220072675930E00072CCD /* RestInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435738C32600131B00E5DFDF /* RestInfo.swift */; };
+		43E220082675931100072CCD /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435738D826002CAB00E5DFDF /* WebView.swift */; };
+		43E220092675931300072CCD /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32678BCF264A1C4D00CD7D5D /* Place.swift */; };
+		43E2200A2675931600072CCD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0C4F3126438EA90059265C /* MapView.swift */; };
+		43E2200B2675931900072CCD /* ResenasCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431B05872648C568009AF7D7 /* ResenasCellView.swift */; };
+		43E2200C2675931B00072CCD /* AddToResenasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431B05852648C562009AF7D7 /* AddToResenasView.swift */; };
+		43E2200D2675931E00072CCD /* ResenasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D7A892648732800FF4F4F /* ResenasView.swift */; };
+		43E2200E2675932000072CCD /* ResenasDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CE4A0A264BAB6D00978DC5 /* ResenasDetailView.swift */; };
+		43E2200F2675932300072CCD /* RestCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DA471926027DA600052230 /* RestCellView.swift */; };
+		43E220102675932500072CCD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431B05802648C4C1009AF7D7 /* Persistence.swift */; };
+		43E220112675932800072CCD /* Resenas+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D7A9526487B1000FF4F4F /* Resenas+CoreDataProperties.swift */; };
+		43E220122675932A00072CCD /* Resenas+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D7A9426487B1000FF4F4F /* Resenas+CoreDataClass.swift */; };
+		43E220132675932D00072CCD /* RestDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DA471F26027FEF00052230 /* RestDetailView.swift */; };
+		43E220142675933000072CCD /* RestFavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325190A6264B5D1900281B3C /* RestFavView.swift */; };
+		43E220152675933400072CCD /* RestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DA471526027CE200052230 /* RestView.swift */; };
+		43E220162675943E00072CCD /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD2A4232605CF2900E5A08E /* Fonts.swift */; };
 		4A4D7A8A2648732800FF4F4F /* ResenasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D7A892648732800FF4F4F /* ResenasView.swift */; };
 		4A4D7A9626487B1000FF4F4F /* Resenas+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D7A9426487B1000FF4F4F /* Resenas+CoreDataClass.swift */; };
 		4A4D7A9726487B1000FF4F4F /* Resenas+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D7A9526487B1000FF4F4F /* Resenas+CoreDataProperties.swift */; };
@@ -39,6 +65,30 @@
 		4AD2A4242605CF2900E5A08E /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD2A4232605CF2900E5A08E /* Fonts.swift */; };
 		4AD2A4322605D70900E5A08E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AD2A4312605D70900E5A08E /* Colors.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43E21FFA267592AC00072CCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 432AE779260005B80074511B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43E21FED267592AB00072CCD;
+			remoteInfo = RestWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		43E21FFD267592AC00072CCD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				43E21FFC267592AC00072CCD /* RestWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1F0C4F3126438EA90059265C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -64,6 +114,13 @@
 		43DA471926027DA600052230 /* RestCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestCellView.swift; sourceTree = "<group>"; };
 		43DA471C26027E5800052230 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 		43DA471F26027FEF00052230 /* RestDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestDetailView.swift; sourceTree = "<group>"; };
+		43E21FEE267592AB00072CCD /* RestWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RestWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E21FF0267592AB00072CCD /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		43E21FF2267592AB00072CCD /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		43E21FF5267592AB00072CCD /* RestWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestWidget.swift; sourceTree = "<group>"; };
+		43E21FF7267592AC00072CCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43E21FF9267592AC00072CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43E22001267592F200072CCD /* RestWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestWidgetView.swift; sourceTree = "<group>"; };
 		4A4D7A892648732800FF4F4F /* ResenasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResenasView.swift; sourceTree = "<group>"; };
 		4A4D7A9426487B1000FF4F4F /* Resenas+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resenas+CoreDataClass.swift"; sourceTree = "<group>"; };
 		4A4D7A9526487B1000FF4F4F /* Resenas+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resenas+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -84,6 +141,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		43E21FEB267592AB00072CCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E21FF3267592AB00072CCD /* SwiftUI.framework in Frameworks */,
+				43E21FF1267592AB00072CCD /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -91,6 +157,8 @@
 			isa = PBXGroup;
 			children = (
 				432AE783260005B80074511B /* ProyectoLab */,
+				43E21FF4267592AB00072CCD /* RestWidget */,
+				43E21FEF267592AB00072CCD /* Frameworks */,
 				432AE782260005B80074511B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				432AE781260005B80074511B /* ProyectoLab.app */,
+				43E21FEE267592AB00072CCD /* RestWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,6 +211,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		43E21FEF267592AB00072CCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43E21FF0267592AB00072CCD /* WidgetKit.framework */,
+				43E21FF2267592AB00072CCD /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43E21FF4267592AB00072CCD /* RestWidget */ = {
+			isa = PBXGroup;
+			children = (
+				43E21FF5267592AB00072CCD /* RestWidget.swift */,
+				43E22001267592F200072CCD /* RestWidgetView.swift */,
+				43E21FF7267592AC00072CCD /* Assets.xcassets */,
+				43E21FF9267592AC00072CCD /* Info.plist */,
+			);
+			path = RestWidget;
+			sourceTree = "<group>";
+		};
 		4A4D7A90264877D600FF4F4F /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,15 +265,34 @@
 				432AE77D260005B80074511B /* Sources */,
 				432AE77E260005B80074511B /* Frameworks */,
 				432AE77F260005B80074511B /* Resources */,
+				43E21FFD267592AC00072CCD /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				43E21FFB267592AC00072CCD /* PBXTargetDependency */,
 			);
 			name = ProyectoLab;
 			productName = ProyectoLab;
 			productReference = 432AE781260005B80074511B /* ProyectoLab.app */;
 			productType = "com.apple.product-type.application";
+		};
+		43E21FED267592AB00072CCD /* RestWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43E22000267592AC00072CCD /* Build configuration list for PBXNativeTarget "RestWidgetExtension" */;
+			buildPhases = (
+				43E21FEA267592AB00072CCD /* Sources */,
+				43E21FEB267592AB00072CCD /* Frameworks */,
+				43E21FEC267592AB00072CCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RestWidgetExtension;
+			productName = RestWidgetExtension;
+			productReference = 43E21FEE267592AB00072CCD /* RestWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -192,11 +300,14 @@
 		432AE779260005B80074511B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					432AE780260005B80074511B = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					43E21FED267592AB00072CCD = {
+						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
@@ -214,6 +325,7 @@
 			projectRoot = "";
 			targets = (
 				432AE780260005B80074511B /* ProyectoLab */,
+				43E21FED267592AB00072CCD /* RestWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -231,6 +343,14 @@
 				4AD2A4322605D70900E5A08E /* Colors.xcassets in Resources */,
 				432AE78C260005BA0074511B /* Preview Assets.xcassets in Resources */,
 				432AE789260005BA0074511B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43E21FEC267592AB00072CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E21FF8267592AC00072CCD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +387,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		43E21FEA267592AB00072CCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E21FF6267592AB00072CCD /* RestWidget.swift in Sources */,
+				43E220102675932500072CCD /* Persistence.swift in Sources */,
+				43E220142675933000072CCD /* RestFavView.swift in Sources */,
+				43E2200F2675932300072CCD /* RestCellView.swift in Sources */,
+				43E220132675932D00072CCD /* RestDetailView.swift in Sources */,
+				43E220112675932800072CCD /* Resenas+CoreDataProperties.swift in Sources */,
+				43E220082675931100072CCD /* WebView.swift in Sources */,
+				43E220042675930700072CCD /* ScoreView.swift in Sources */,
+				43E220162675943E00072CCD /* Fonts.swift in Sources */,
+				43E2200E2675932000072CCD /* ResenasDetailView.swift in Sources */,
+				43E2200D2675931E00072CCD /* ResenasView.swift in Sources */,
+				43E220052675930A00072CCD /* defaultInfo.swift in Sources */,
+				43E220072675930E00072CCD /* RestInfo.swift in Sources */,
+				43E22002267592F200072CCD /* RestWidgetView.swift in Sources */,
+				43E220092675931300072CCD /* Place.swift in Sources */,
+				43E2200A2675931600072CCD /* MapView.swift in Sources */,
+				43E220032675930500072CCD /* NavigationBarModifier.swift in Sources */,
+				43E220152675933400072CCD /* RestView.swift in Sources */,
+				43E2200C2675931B00072CCD /* AddToResenasView.swift in Sources */,
+				43E2200B2675931900072CCD /* ResenasCellView.swift in Sources */,
+				43E220062675930C00072CCD /* RestInfoModel.swift in Sources */,
+				43E220122675932A00072CCD /* Resenas+CoreDataClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43E21FFB267592AC00072CCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43E21FED267592AB00072CCD /* RestWidgetExtension */;
+			targetProxy = 43E21FFA267592AC00072CCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		432AE78E260005BA0074511B /* Debug */ = {
@@ -389,6 +546,7 @@
 		432AE791260005BA0074511B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -411,6 +569,7 @@
 		432AE792260005BA0074511B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -425,6 +584,50 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = A00822344.ProyectoLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43E21FFE267592AC00072CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CRAH96U8M;
+				INFOPLIST_FILE = RestWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = A00822344.ProyectoLab.RestWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43E21FFF267592AC00072CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CRAH96U8M;
+				INFOPLIST_FILE = RestWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = A00822344.ProyectoLab.RestWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,6 +650,15 @@
 			buildConfigurations = (
 				432AE791260005BA0074511B /* Debug */,
 				432AE792260005BA0074511B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43E22000267592AC00072CCD /* Build configuration list for PBXNativeTarget "RestWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43E21FFE267592AC00072CCD /* Debug */,
+				43E21FFF267592AC00072CCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
