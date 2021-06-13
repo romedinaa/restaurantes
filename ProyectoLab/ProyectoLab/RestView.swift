@@ -68,6 +68,10 @@ struct RestView: View {
                     restaurants = rest.tampico
                 case "Cancún":
                     restaurants = rest.cancun
+                case "CDMX":
+                    restaurants = rest.cdmx
+                case "Guadalajara":
+                    restaurants = rest.guadalajara
                 default: restaurants = rest.monterrey
                     
                 }

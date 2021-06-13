@@ -13,6 +13,8 @@ class RestInfoModel: ObservableObject {
     @Published var monterrey = [RestInfo]()
     @Published var chihuahua = [RestInfo]()
     @Published var cancun = [RestInfo]()
+    @Published var cdmx = [RestInfo]()
+    @Published var guadalajara = [RestInfo]()
     
     
     
@@ -33,6 +35,8 @@ class RestInfoModel: ObservableObject {
         info = RestInfo(name: "Tacos Mary", type: "Tacos", rating: 76 , tel: "8332122574", location: "Tampico", latitude: 22.2412967, longitude: -97.8657773875, cost: "$", images: ["Mary1","Mary2", "Mary3"], web: "https://www.facebook.com/tacosmarytampico/")
         tampico.append(info)
         
+        info = RestInfo(name: "Basilico", type: "Italiana", rating: 97 , tel: "8332283702", location: "Tampico", latitude: 22.273104, longitude: -97.8748318, cost: "$$", images: ["Basilico1","Basilico2", "Basilico3"], web: "http://www.basilico.com.mx/")
+        tampico.append(info)
         
         info = RestInfo(name: "Ryoshi", type: "Japonesa", rating: 90 , tel: "8119168146", location: "Monterrey", latitude: 25.6503771, longitude: -100.3355411852, cost: "$$$$", images: ["Ryoshi1","Ryoshi2", "Ryoshi3"], web: "https://www.ryoshi.mx")
         monterrey.append(info)
@@ -41,6 +45,9 @@ class RestInfoModel: ObservableObject {
         monterrey.append(info)
         
         info = RestInfo(name: "Macadam", type: "Brunch", rating: 77 , tel: "8127211051", location: "Monterrey", latitude: 25.6466667, longitude: -100.363022852, cost: "$$", images: ["Macadam1","Macadam2", "Macadam3"], web: "https://m.facebook.com/macadam.mx/")
+        monterrey.append(info)
+        
+        info = RestInfo(name: "Umami Ramen", type: "Ramen", rating: 92 , tel: "8127196095", location: "Monterrey", latitude: 25.6582548, longitude: -100.3600581, cost: "$$", images: ["umami1","umami2", "umami3"], web: "https://www.umamiramen.mx")
         monterrey.append(info)
         
         
@@ -53,6 +60,9 @@ class RestInfoModel: ObservableObject {
         info = RestInfo(name: "Los Mezquitez", type: "Cortes", rating:87  , tel: "6144116699", location: "Chihuahua", latitude: 28.6288665, longitude: -106.0861198829, cost: "$$$", images: ["Mezquitez1","Mezquitez2", "Mezquitez3"], web: "https://losmezquites.com.mx")
         chihuahua.append(info)
         
+        info = RestInfo(name: "La Sotoleria", type: "Bar", rating:92  , tel: "6144100034", location: "Chihuahua", latitude: 28.6355253, longitude: -106.0747548, cost: "$$", images: ["Sotoleria1","Sotoleria2", "Sotoleria3"], web: "https://www.facebook.com/LaSotoleria/")
+        chihuahua.append(info)
+        
         
         info = RestInfo(name: "Fantino", type: "Mariscos", rating:96  , tel: "9988810808", location: "Cancún", latitude: 21.093215725505985, longitude: -86.76810623210594, cost: "$$$$", images: ["Fantino1","Fantino2", "Fantino3"], web: "https://www.ritzcarlton.com/en/hotels/mexico/cancun/dining/Fantino?scid=bb1a189a-fec3-4d19-a255-54ba596febe2")
         cancun.append(info)
@@ -62,5 +72,32 @@ class RestInfoModel: ObservableObject {
         
         info = RestInfo(name: "RosaNegra Cancún", type: "Mariscos", rating:84  , tel: "9983134132", location: "Cancún", latitude: 21.08523041202393, longitude: -86.77450741676334, cost: "$$", images: ["Rosa1","Rosa2", "Rosa3"], web: "https://rosanegra.com.mx/es")
         cancun.append(info)
+        
+        info = RestInfo(name: "Crab House Cancún", type: "Mariscos", rating:90  , tel: "9981930350", location: "Cancún", latitude: 21.0872601, longitude: -86.7736876, cost: "$$$", images: ["Crab1","Crab2", "Crab3"], web: "https://crabhousecancun.com")
+        cancun.append(info)
+        
+        info = RestInfo(name: "Parrilla Urbana", type: "Bar", rating:89  , tel: "5550845112", location: "CDMX", latitude: 19.5247551, longitude: -99.2276401, cost: "$$", images: ["Parrilla1","Parrilla2", "Parrilla3"], web: "http://parrillaurbana.com.mx")
+        cdmx.append(info)
+        
+        info = RestInfo(name: "Café de Tacuba", type: "Mexicano", rating:82  , tel: "525555212048", location: "CDMX", latitude: 19.4357226, longitude: -99.1376571, cost: "$$", images: ["Cafe1","Cafe2", "Cafe3"], web: "http://www.cafedetacuba.info/")
+        cdmx.append(info)
+        
+        info = RestInfo(name: "Primer Cuadro", type: "Mexicano", rating:91  , tel: "5552020639", location: "CDMX", latitude: 19.4323988, longitude: -99.1343477, cost: "$$$", images: ["Cuadro1","Cuadro2", "Cuadro3"], web: "https://primercuadrosteakhouse.rest")
+        cdmx.append(info)
+        
+        info = RestInfo(name: "Azul Historica", type: "Mexicano", rating:96  , tel: "5555101316", location: "CDMX", latitude: 19.4328194, longitude: -99.1360166, cost: "$$$", images: ["Azul1","Azul2", "Azul3"], web: "http://azul.rest/azul-historico/")
+        cdmx.append(info)
+        
+        info = RestInfo(name: "Los Chilaquiles", type: "Mexicano", rating:98  , tel: "3336102623", location: "Guadalajara", latitude: 20.6601333, longitude: -103.3883053, cost: "$$", images: ["Chilaquiles1","Chilaquiles2", "Chilaquiles3"], web: "http://www.loschilaquiles.com/")
+        guadalajara.append(info)
+        
+        info = RestInfo(name: "El Santo Coyote", type: "Mexicano", rating:89  , tel: "3313712943", location: "Guadalajara", latitude: 20.7330903, longitude: -103.4306802, cost: "$$$", images: ["Coyote1","Coyote2", "Coyote3", "Coyote4"], web: "http://www.santocoyote.com.mx/")
+        guadalajara.append(info)
+        
+        info = RestInfo(name: "MUI MUI", type: "Asiatico", rating:95  , tel: "3338173880", location: "Guadalajara", latitude: 20.7010717, longitude: -103.3767194, cost: "$$$", images: ["MUI1","MUI2", "MUI3"], web: "http://www.muimui.mx/")
+        guadalajara.append(info)
+        
+        info = RestInfo(name: "Porfirio's Guadalajara", type: "Mexicano", rating:88  , tel: "3310017728", location: "Guadalajara", latitude: 20.7015912, longitude: -103.3765478, cost: "$$", images: ["Porfirio1","Porfirio2", "Porfirio3"], web: "http://porfirios.com.mx/")
+        guadalajara.append(info)
     }
 }

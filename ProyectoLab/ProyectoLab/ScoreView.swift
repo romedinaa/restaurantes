@@ -39,7 +39,7 @@ struct ScoreView: View {
         if rating < 60 {
             return Color(.red)
         } else {
-            if rating >= 60 && rating < 85 {
+            if rating >= 60 && rating < 79 {
                 return Color(.orange)
             } else {
                 return Color(.green)

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1F0C4F3226438EA90059265C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0C4F3126438EA90059265C /* MapView.swift */; };
+		1F4FEA3A267683F50004AD57 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AD2A4312605D70900E5A08E /* Colors.xcassets */; };
 		1F6DD01A264A7586004D0BD4 /* ResenasModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 431B05822648C4E6009AF7D7 /* ResenasModel.xcdatamodeld */; };
 		325190A7264B5D1900281B3C /* RestFavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325190A6264B5D1900281B3C /* RestFavView.swift */; };
 		32678BD0264A1C4D00CD7D5D /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32678BCF264A1C4D00CD7D5D /* Place.swift */; };
@@ -351,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43E21FF8267592AC00072CCD /* Assets.xcassets in Resources */,
+				1F4FEA3A267683F50004AD57 /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

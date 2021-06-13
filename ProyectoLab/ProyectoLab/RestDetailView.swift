@@ -142,6 +142,10 @@ struct RestDetailView: View {
             return Place.chihuahua
         case "Tampico":
             return Place.tampico
+        case "CDMX":
+            return Place.cdmx
+        case "Guadalajara":
+            return Place.guadalajara
         
         default:
             return Place.cancun

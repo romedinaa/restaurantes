@@ -23,6 +23,8 @@ struct CityView: View {
         City(cityname: "Chihuahua", image: "sun.dust"),
         City(cityname: "Cancún", image: "sun.max"),
         City(cityname: "Tampico", image: "sun.haze"),
+        City(cityname: "CDMX", image: "building.2.fill"),
+        City(cityname: "Guadalajara", image: "cloud.drizzle"),
         City(cityname: "Favoritos", image: "star.fill")]
     
     
@@ -66,30 +68,30 @@ struct CityView: View {
                 }
                 
                 
-                VStack{
-                    Button(action: {
-                        self.isPopoverPresented = true
-                    }) {
-                        Text("Instrucciones")
-                            .font(.title2)
-                            .fontWeight(.bold)
-                            .foregroundColor(Color.white)
-                            .frame(width: 300, height: 100, alignment: .center)
-      
-                    }
-                    .frame(width: 200.0, height: 60.0)
-                    // 3.
-                    .popover(isPresented: $isPopoverPresented) {
-                        Text("Bienvenido! Por favor seleccione la ciudad de la cual desea conocer los restaurantes. Una pantalla se abrirá mostrando los restaurantes disponibles en la ubicación seleccionada. Seleccionado el restaurante de su preferencia, se mostraran más detalles de éste. ")
-                            .font(.title3)
-                            .multilineTextAlignment(.center)
-                            .frame(width: 350, height: 500)
-                    }
-                    .border(Color("Naranjas"), width: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
-                    .background(Color("Naranjas"))
-                    .cornerRadius(/*@START_MENU_TOKEN@*/50.0/*@END_MENU_TOKEN@*/)
-                }
-                .padding(.top, 500)
+//                VStack{
+//                    Button(action: {
+//                        self.isPopoverPresented = true
+//                    }) {
+//                        Text("Instrucciones")
+//                            .font(.title2)
+//                            .fontWeight(.bold)
+//                            .foregroundColor(Color.white)
+//                            .frame(width: 300, height: 100, alignment: .center)
+//
+//                    }
+//                    .frame(width: 200.0, height: 60.0)
+//                    // 3.
+//                    .popover(isPresented: $isPopoverPresented) {
+//                        Text("Bienvenido! Por favor seleccione la ciudad de la cual desea conocer los restaurantes. Una pantalla se abrirá mostrando los restaurantes disponibles en la ubicación seleccionada. Seleccionado el restaurante de su preferencia, se mostraran más detalles de éste. ")
+//                            .font(.title3)
+//                            .multilineTextAlignment(.center)
+//                            .frame(width: 350, height: 500)
+//                    }
+//                    .border(Color("Naranjas"), width: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
+//                    .background(Color("Naranjas"))
+//                    .cornerRadius(/*@START_MENU_TOKEN@*/50.0/*@END_MENU_TOKEN@*/)
+//                }
+//                .padding(.top, 500)
             }
         }
         
