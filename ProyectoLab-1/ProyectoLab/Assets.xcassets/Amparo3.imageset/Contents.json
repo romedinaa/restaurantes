@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "desayunos-en-el-cafe-del-museo-noticias-cover-museo-amparo-puebla-20160809-092817-d.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
